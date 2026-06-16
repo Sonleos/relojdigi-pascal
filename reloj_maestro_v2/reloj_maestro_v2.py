@@ -238,7 +238,7 @@ def mostrar_alerta_emergente(origen_local=False):
     estado.alerta_abierta = True
     
     ventana_alerta = ctk.CTkToplevel(app)
-    ventana_alerta.title("¡ALARMA ACTIVADA!")
+    ventana_alerta.title("Activación de Alarma")
     ventana_alerta.geometry("450x220")
     ventana_alerta.resizable(False, False)
     ventana_alerta.attributes("-topmost", True)
@@ -247,12 +247,12 @@ def mostrar_alerta_emergente(origen_local=False):
     y_alerta = app.winfo_y() + (app.winfo_height() // 2) - 110
     ventana_alerta.geometry(f"450x220+{x_alerta}+{y_alerta}")
 
-    frame_interior = ctk.CTkFrame(ventana_alerta, border_width=2, border_color="#FF3333")
+    frame_interior = ctk.CTkFrame(ventana_alerta, border_width=2, border_color="#289740")
     frame_interior.pack(fill="both", expand=True, padx=10, pady=10)
 
-    ctk.CTkLabel(frame_interior, text="🔔 SIRENA ACTIVA", font=("Consolas", 24, "bold"), text_color="#33FF5F").pack(pady=(20, 5))
+    ctk.CTkLabel(frame_interior, text="🔔 ALARMA EN EJECUCIÓN", font=("Consolas", 24, "bold"), text_color="#33FF5F").pack(pady=(20, 5))
     
-    mensaje_detalle = "La alerta fue emitida de forma local\npor el software de la PC." if origen_local else "El reloj está reproduciendo la alarma\nen sus paneles físicos."
+    mensaje_detalle = "La alarma programada fue emitida de forma local\npor el software de la PC." if origen_local else "El reloj/Arduino está reproduciendo la alarma\nen sus paneles físicos."
     ctk.CTkLabel(frame_interior, text=mensaje_detalle, font=("Consolas", 14)).pack(pady=10)
     
     def cerrar_alerta():
@@ -261,7 +261,7 @@ def mostrar_alerta_emergente(origen_local=False):
         
     ventana_alerta.protocol("WM_DELETE_WINDOW", cerrar_alerta)
     
-    ctk.CTkButton(frame_interior, text="Cerrar", fg_color="#FF3333", hover_color="#B32424",
+    ctk.CTkButton(frame_interior, text="De acuerdo", fg_color="#289740", hover_color="#0F461B",
                 command=cerrar_alerta).pack(pady=(10, 15))
 
 
