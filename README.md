@@ -100,6 +100,6 @@ pip install customtkinter pyserial
 Para inicializar la aplicación de control:
 
 ```bash
-python reloj_maestro_v2.py
+python reloj_maestro_v2.py | [##--Dependiendo de cual archivo .py se desea ejecutar] |
 
 ```
