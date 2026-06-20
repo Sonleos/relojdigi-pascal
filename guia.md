@@ -1,3 +1,5 @@
+# -- CADA CARPETA ES UNA VERSIÓN DISTINTA DEL RELOJ MAESTRO --
+
 # Documentación Técnica: Proyecto "Reloj Maestro"
 
 **Módulo:** Terminal de Control (Software de Escritorio)
