@@ -1,4 +1,6 @@
-# Reloj Maestro - Terminal de Control (V2.0)
+# -- CADA CARPETA ES UNA VERSIÓN DISTINTA DEL PROYECTO --
+
+# Reloj Maestro - Terminal de Control - Versión actual (2.2)
 
 Esta aplicación de escritorio, desarrollada en Python utilizando la biblioteca **CustomTkinter**, actúa como la interfaz de control principal (`Frontend`) para un sistema de **Reloj Maestro** basado en hardware (Arduino). Permite la monitorización en tiempo real del tiempo del sistema, el control de conexiones seriales, la programación avanzada de alarmas semanales mediante máscaras de bits, la redundancia local de eventos y el registro detallado de operaciones en una bitácora o terminal integrada.
 
