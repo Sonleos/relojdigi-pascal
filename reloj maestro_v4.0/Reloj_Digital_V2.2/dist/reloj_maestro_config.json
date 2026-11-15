@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-07T20:59:12",
+  "settings": {
+    "time_format": "24h",
+    "sound_enabled": true,
+    "last_port": "COM1",
+    "appearance": "light"
+  },
+  "alarms": []
+}

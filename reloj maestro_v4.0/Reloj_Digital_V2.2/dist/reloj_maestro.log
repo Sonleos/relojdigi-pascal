@@ -1,0 +1,52 @@
+2026-11-07 10:53:19 [INFO] Terminal iniciada · Reloj Maestro v2.2
+2026-11-07 10:53:19 [INFO] Configuración: C:\Users\LAB1-7\Desktop\Reloj_Digital_V2.2\dist\reloj_maestro_config.json
+2026-11-07 10:53:19 [INFO] Bitácora: C:\Users\LAB1-7\Desktop\Reloj_Digital_V2.2\dist\reloj_maestro.log
+2026-11-07 10:53:19 [INFO] No hay alarmas guardadas. Configura la primera.
+2026-11-07 10:53:22 [INFO] Tema visual cambiado a oscuro.
+2026-11-07 10:53:47 [INFO] Alarma guardada: 10:54 AM · Todos los días
+2026-11-07 10:53:47 [INFO] Cambio guardado localmente; se enviará al conectar el Arduino.
+2026-11-07 10:53:56 [INFO] Puertos encontrados: COM1, COM4
+2026-11-07 10:53:58 [INFO] Conectando a COM1...
+2026-11-07 10:54:00 [INFO] ⏰ Alarma local: 10:54 AM · Todos los días
+2026-11-07 10:54:02 [INFO] Hardware conectado · Firmware legacy
+2026-11-07 10:54:02 [INFO] Firmware legacy: las alarmas borradas, editadas o desactivadas pueden permanecer en el Arduino hasta reiniciarlo.
+2026-11-07 10:54:02 [INFO] Sincronización completada (conexión): 1 alarma(s) enviada(s).
+2026-11-07 10:54:02 [INFO] TX ➔ S:10:54:02:A:7
+2026-11-07 10:54:02 [INFO] TX ➔ A:10:54:A:15:127
+2026-11-07 10:54:10 [INFO] El firmware legacy no permite detener la sirena remotamente.
+2026-11-07 10:54:13 [INFO] Desconectando hardware...
+2026-11-07 10:54:13 [INFO] Hardware desconectado.
+2026-11-07 20:39:02 [INFO] Terminal iniciada · Reloj Maestro v2.2
+2026-11-07 20:39:02 [INFO] Configuración: C:\Users\user\Desktop\reloj maestro\Reloj_Digital_V2.2\dist\reloj_maestro_config.json
+2026-11-07 20:39:02 [INFO] Bitácora: C:\Users\user\Desktop\reloj maestro\Reloj_Digital_V2.2\dist\reloj_maestro.log
+2026-11-07 20:39:02 [INFO] 1 alarma(s) cargada(s) desde disco.
+2026-11-07 20:39:43 [INFO] Alarma guardada: 08:40 PM · Todos los días
+2026-11-07 20:39:43 [INFO] Cambio guardado localmente; se enviará al conectar el Arduino.
+2026-11-07 20:40:00 [INFO] ⏰ Alarma local: 08:40 PM · Todos los días
+2026-11-07 20:40:24 [INFO] Sirena local detenida (hardware desconectado).
+2026-11-07 20:41:37 [INFO] Conectando a COM1...
+2026-11-07 20:41:41 [INFO] Hardware conectado · Firmware legacy
+2026-11-07 20:41:41 [INFO] Firmware legacy: las alarmas borradas, editadas o desactivadas pueden permanecer en el Arduino hasta reiniciarlo.
+2026-11-07 20:41:41 [INFO] Sincronización completada (conexión): 2 alarma(s) enviada(s).
+2026-11-07 20:41:41 [INFO] TX ➔ S:08:41:41:P:7
+2026-11-07 20:41:41 [INFO] TX ➔ A:10:54:A:15:127
+2026-11-07 20:41:41 [INFO] TX ➔ A:8:40:P:10:127
+2026-11-07 20:42:29 [INFO] Alarma actualizada: 08:40 PM · Dom, Mar
+2026-11-07 20:42:29 [INFO] Alarma enviada al hardware legacy.
+2026-11-07 20:42:29 [INFO] TX ➔ A:8:40:P:10:5
+2026-11-07 20:42:44 [INFO] Sincronización completada (manual): 2 alarma(s) enviada(s).
+2026-11-07 20:42:44 [INFO] TX ➔ S:08:42:44:P:7
+2026-11-07 20:42:44 [INFO] TX ➔ A:10:54:A:15:127
+2026-11-07 20:42:44 [INFO] TX ➔ A:8:40:P:10:5
+2026-11-07 20:50:28 [INFO] Alarma eliminada: 10:54 AM · Todos los días
+2026-11-07 20:50:31 [INFO] Alarma eliminada: 08:40 PM · Dom, Mar
+2026-11-07 20:50:33 [INFO] Bitácora limpiada por el usuario.
+2026-11-07 20:50:39 [INFO] Cerrando terminal...
+2026-11-07 20:54:36 [INFO] Terminal iniciada · Reloj Maestro v2.2
+2026-11-07 20:54:36 [INFO] Configuración: C:\Users\user\Desktop\reloj maestro\Reloj_Digital_V2.2\dist\reloj_maestro_config.json
+2026-11-07 20:54:36 [INFO] Bitácora: C:\Users\user\Desktop\reloj maestro\Reloj_Digital_V2.2\dist\reloj_maestro.log
+2026-11-07 20:54:36 [INFO] No hay alarmas guardadas. Configura la primera.
+2026-11-07 20:55:09 [INFO] Tema visual cambiado a claro.
+2026-11-07 20:55:21 [INFO] Sonido local desactivado.
+2026-11-07 20:55:22 [INFO] Sonido local activado.
+2026-11-07 20:59:12 [INFO] Cerrando terminal...
