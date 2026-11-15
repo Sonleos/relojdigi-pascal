@@ -1,4 +1,4 @@
-# Reloj Maestro v2.2
+# Reloj Maestro v4.0
 
 Terminal de control de escritorio para programar alarmas semanales de un reloj
 digital basado en Arduino. La PC programa y supervisa; el Arduino guarda las
